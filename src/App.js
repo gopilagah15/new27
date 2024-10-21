@@ -4,13 +4,14 @@
  import { BrowserRouter, Route, Routes } from 'react-router-dom' 
 
 export class App extends Component {
+  pageSize = 14;
   render() {
     return (
       <>
            <BrowserRouter>
            <Navbar/>
            <Routes>
-             <Route exact path='/' element={<News/>}></Route>
+             <Route exact path='/' element={<News pageSize={this.pageSize} country='us'/>}></Route>
            </Routes>
            </BrowserRouter>
         
