@@ -18,25 +18,20 @@ function Navbar() {
         <li className="nav-item">
           <Link className="nav-link" to="#">Link</Link>
         </li>
-        <li className="nav-item dropdown">
-          <Link className="nav-link dropdown-toggle" to="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown
-          </Link>
-          <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><Link className="dropdown-item" to="#">Action</Link></li>
-            <li><Link className="dropdown-item" to="#">Another action</Link></li>
-            <li><hr className="dropdown-divider"/></li>
-            <li><Link className="dropdown-item" to="#">Something else here</Link></li>
-          </ul>
-        </li>
-        <li className="nav-item">
-          <Link className="nav-link disabled" to="#" tabIndex="-1" aria-disabled="true">Disabled</Link>
-        </li>
+          
+
+        <li className="nav-item"><Link className="nav-link" to="/business">Business</Link></li>
+                            <li className="nav-item"><Link className="nav-link" to="/entertainment">Entertainment</Link></li>
+                            <li className="nav-item"><Link className="nav-link" to="/general">General</Link></li>
+                            <li className="nav-item"><Link className="nav-link" to="/health">Health</Link></li>
+                            <li className="nav-item"><Link className="nav-link" to="/science">Science</Link></li>
+                            <li className="nav-item"><Link className="nav-link" to="/sports">Sports</Link></li>
+                            <li className="nav-item"><Link className="nav-link" to="/technology">Technology</Link></li>
+                            <li className="nav-item"><Link className="nav-link" to="/technology">Technology</Link></li>
+
+
       </ul>
-      <form className="d-flex">
-        <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-        <button className="btn btn-outline-success" type="submit">Search</button>
-      </form>
+       
     </div>
   </div>
 </nav>
