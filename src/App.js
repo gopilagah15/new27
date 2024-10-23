@@ -11,7 +11,7 @@ export class App extends Component {
            <BrowserRouter>
            <Navbar/>
            <Routes>
-           <Route exact path='/business' element={<News  key='business' pageSize={this.pageSize} country='us' category='business'/>} /> 
+           <Route exact path='/' element={<News  key='general' pageSize={this.pageSize} country='us' category='general'/>} /> 
 
            </Routes>
            </BrowserRouter>
